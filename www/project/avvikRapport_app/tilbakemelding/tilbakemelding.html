@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Demo_App</label>
+        <ul>
+          <li><a href="../home/home.html">Home</a></li>
+          <li><a href="../Hendelse/hendelse.html">Hendelse</a></li>
+          <li><a href="../observasjon/observasjon.html">Observasjon</a></li>
+          <li><a href="../forbedring/forbedring.html">Forbedring</a></li>
+          <li><a class="active" href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <h2>Feedback</h2>
+          <input type="text" class="field" placeholder="Title" />
+          <textarea placeholder="Beskrivelse" class="field"></textarea>
+          <div class="field">
+            <div class="custom-select">
+              <select class="arrow">
+                <option value="">Kilde</option>
+                <option value="Gruppe1">Gruppe1</option>
+                <option value="Gruppe2">Gruppe2</option>
+                <option value="Gruppe3">Gruppe3</option>
+                <option value="Gruppe4">Gruppe4</option>
+              </select>
+            </div>
+          </div>
+          <input type="text" class="field" placeholder="Observert av" />
+
+          <div class="field">
+            <div class="custom-select">
+              <select class="arrow">
+                <option value="">Velg Gruppe</option>
+                <option value="Gruppe1">Gruppe1</option>
+                <option value="Gruppe2">Gruppe2</option>
+                <option value="Gruppe3">Gruppe3</option>
+                <option value="Gruppe4">Gruppe4</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

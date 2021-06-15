@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Demo_App</label>
+        <ul>
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="../Hendelse/hendelse.html">Hendelse</a></li>
+          <li><a href="../observasjon/observasjon.html">Observasjon</a></li>
+          <li><a href="../forbedring/forbedring.html">Forbedring</a></li>
+          <li><a href="../tilbakemelding/tilbakemelding.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="tab">
+      <button
+        class="tablinks"
+        onclick="openCity(event, 'Oppgaver')"
+        id="defaultOpen"
+      >
+        Mine oppgaver
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Opprettet')">
+        Opprettet av meg
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Utrappotering')">
+        Utrappotering
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Favoritter')">
+        Favoritter
+      </button>
+    </div>
+
+    <div id="Oppgaver" class="tabcontent">
+      <h3>Åpne saker jeg har ansvar for</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non
+        libero nulla repudiandae, eum reprehenderit exercitationem numquam
+        eveniet, voluptates in commodi ab similique inventore! Accusantium
+        dolorum magni iste voluptate ducimus?
+      </p>
+
+      <h3>Åpne tiltak jeg har ansvar for</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non
+        libero nulla repudiandae, eum reprehenderit exercitationem numquam
+        eveniet, voluptates in commodi ab similique inventore! Accusantium
+        dolorum magni iste voluptate ducimus?
+      </p>
+      <h3>Mine åpne etterkontroller</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non
+        libero nulla repudiandae, eum reprehenderit exercitationem numquam
+        eveniet, voluptates in commodi ab similique inventore! Accusantium
+        dolorum magni iste voluptate ducimus?
+      </p>
+    </div>
+
+    <div id="Opprettet" class="tabcontent">
+      <h3>Saker jeg har meldt inn</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non
+        libero nulla repudiandae, eum reprehenderit exercitationem numquam
+        eveniet, voluptates in commodi ab similique inventore! Accusantium
+        dolorum magni iste voluptate ducimus?
+      </p>
+
+      <h3>Tiltak jeg har opprettet</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non
+        libero nulla repudiandae, eum reprehenderit exercitationem numquam
+        eveniet, voluptates in commodi ab similique inventore! Accusantium
+        dolorum magni iste voluptate ducimus?
+      </p>
+      <h3>Etterkontroller jeg har opprettet</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non
+        libero nulla repudiandae, eum reprehenderit exercitationem numquam
+        eveniet, voluptates in commodi ab similique inventore! Accusantium
+        dolorum magni iste voluptate ducimus?
+      </p>
+    </div>
+
+    <div id="Utrappotering" class="tabcontent">
+      <h3>Utrappotering</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae obcaecati
+        iusto esse sunt ex beatae incidunt illo officia harum unde quo doloribus
+        saepe culpa aliquid eligendi mollitia qui dolorum velit, fugiat sit
+        laboriosam labore! Quos optio cumque maiores repellendus modi.
+      </p>
+    </div>
+    <div id="Favoritter" class="tabcontent">
+      <h3>Favoritter</h3>
+      <span class="underline"></span>
+      <p class="undercontent">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, quasi
+        dignissimos. Tempore provident cum architecto quaerat distinctio vero ut
+        non, voluptates ullam excepturi repellat! Aliquid illum optio temporibus
+        molestiae enim sit. Pariatur impedit velit eligendi esse ipsa magni
+        aperiam dicta?
+      </p>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+</html>

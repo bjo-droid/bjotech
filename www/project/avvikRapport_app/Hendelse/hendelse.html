@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Demo_App</label>
+        <ul>
+          <li><a href="../home/home.html">Home</a></li>
+          <li><a class="active" href="hendelse.html">Hendelse</a></li>
+          <li><a href="../observasjon/observasjon.html">Observasjon</a></li>
+          <li><a href="../forbedring/forbedring.html">Forbedring</a></li>
+          <li><a href="../tilbakemelding/tilbakemelding.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <h2>Hendelse Form</h2>
+          <input type="text" class="field" placeholder="Title" />
+          <textarea placeholder="Beskrivelse" class="field"></textarea>
+          <input
+            type="date"
+            class="field"
+            id="start"
+            name="trip-start"
+            value="2020-01-01"
+            min="2018-01-01"
+            max="2025-12-31"
+          />
+          <input type="text" class="field" placeholder="Hendelsested" />
+          <input type="text" class="field" placeholder="Observert av" />
+
+          <textarea placeholder="Strakstiltak" class="field"></textarea>
+          <div class="field">
+            <div class="custom-select">
+              <select class="arrow">
+                <option value="">Velg Kilde</option>
+                <option value="customer">Customer</option>
+                <option value="internal">Internal</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <div class="custom-select">
+              <select class="arrow">
+                <option value="">Velg Gruppe</option>
+                <option value="Gruppe1">Gruppe1</option>
+                <option value="Gruppe2">Gruppe2</option>
+                <option value="Gruppe3">Gruppe3</option>
+                <option value="Gruppe4">Gruppe4</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
