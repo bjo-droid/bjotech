@@ -1,0 +1,2 @@
+# bjotech
+My webpage/portfolio
